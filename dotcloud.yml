@@ -1,0 +1,15 @@
+# web configuration
+www:
+  type: python
+  config:
+    python_version: v2.7
+    # the following line is all that is needed to enable the newrelic agent
+    enable_newrelic: true
+
+# The following lines are not needed, the newrelic.ini file contains the necessary info
+#  environment:
+#     NEW_RELIC_LICENSE_KEY: zbc1234sjnfnsdnFAKE0KEYk3232kjnknfksdnfkw23
+#     NEW_RELIC_APP_NAME: dotCloud Python App
+#     NEW_RELIC_LOG: /var/log/supervisor/newrelic.log
+#     NEW_RELIC_LOG_LEVEL: info
+#     NEW_RELIC_CONFIG_FILE: /home/dotcloud/current/newrelic.ini
